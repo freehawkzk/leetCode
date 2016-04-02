@@ -7,6 +7,7 @@ LettCode OJ代码
 1          Two Sum                                                              16ms            55.48%
 2          Add Two Numbers                                                      36ms            63.70%
 3          Longest Substring Without Repeating Charatcters                      16ms            61.72%
+5          Longest Palindromic Substring                                        12ms            73.48%
 6          ZigZag Conversion                                                    16ms            70.79%
 7          Reverse Integer                                                      8ms             37.52%
 11         Container With Most Water                                            24ms            34.27%
