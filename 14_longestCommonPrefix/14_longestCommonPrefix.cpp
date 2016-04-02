@@ -19,60 +19,53 @@ string longestCommonPrefix(vector<string>& strs)
 	{
 		return strs[0];
 	}
+	sort(strs.begin(), strs.end());
 
-	stable_sort(strs.begin(), strs.end(), cmp);
+	int nLastStr = strs.size() - 1;
+	int nLastPos = 0;
+	if (strs[0] == "" || strs[nLastStr] == "")
+	{
+		return string("");
+	}
+	else
+	{
+		while (strs[0][nLastPos] == strs[nLastStr][nLastPos])
+		{
+			nLastPos++;
+		}
+	}
+	return strs[0].substr(0, nLastPos);
+	/*stable_sort(strs.begin(), strs.end(), cmp);
 	
 	if (strs[0].length() == 0)
 	{
 		return string("");
 	}
 	else
-	{
-		vector<string>::iterator itorSortBeg = strs.begin();
-		vector<string>::iterator itorSortEnd = itorSortBeg++;
-		int nFirstStrLength = (*itorSortBeg).length();
-		while (itorSortEnd != strs.end() && (nFirstStrLength == (*itorSortEnd).length()))
+	{		
+		int nLastPos = strs[0].length();
+		int nStrsNum = strs.size();
+		for (int i = 1; i < nStrsNum; i++)
 		{
-			itorSortEnd++;
-		}
-		if (itorSortEnd - itorSortBeg == 1)
-		{
-			return strs[0];
-		}
-		else
-		{
-			stable_sort(itorSortBeg, itorSortEnd);
-			int nSize = itorSortEnd - itorSortBeg;
-			int nStopPos = nFirstStrLength;
-			for (int i = 1; i < nSize; i++)
+			for (int j = 0; j < nLastPos; j++)
 			{
-				for (int j = 0; j < nFirstStrLength && j <= nStopPos; j++)
+				if (strs[0][j] != strs[i][j])
 				{
-					if ((strs[0])[j] == (strs[i])[j])
-					{
-						continue;
-					}
-					else
-					{
-							nStopPos = j;	
-					}
+					nLastPos = j;
+					break;
 				}
 			}
-			return strs[0].substr(0, nStopPos);
 		}
-		
-
-	}
-
-	//return strs[0];
+		return strs[0].substr(0, nLastPos);
+	}*/
 }
 
 
 int main()
 {
 	vector<string> vStrs;
-	vStrs.push_back("aa");
-	vStrs.push_back("a");
+	vStrs.push_back("");
+	vStrs.push_back("");
 
 	string res = longestCommonPrefix(vStrs);
 	cout << res << endl;
