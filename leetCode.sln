@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_integerToRoman", "12_int
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_longestSubstringWithoutRepeatingCharacters", "3_longestSubstringWithoutRepeatingCharacters\3_longestSubstringWithoutRepeatingCharacters.vcxproj", "{DA9BDF5B-A96E-4EC2-A9B4-EF3B9CB10813}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_longestPalindromicSubstring", "5_longestPalindromicSubstring\5_longestPalindromicSubstring.vcxproj", "{21B3653D-F947-4D67-8F1F-2387CA160ECE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -57,6 +59,10 @@ Global
 		{DA9BDF5B-A96E-4EC2-A9B4-EF3B9CB10813}.Debug|Win32.Build.0 = Debug|Win32
 		{DA9BDF5B-A96E-4EC2-A9B4-EF3B9CB10813}.Release|Win32.ActiveCfg = Release|Win32
 		{DA9BDF5B-A96E-4EC2-A9B4-EF3B9CB10813}.Release|Win32.Build.0 = Release|Win32
+		{21B3653D-F947-4D67-8F1F-2387CA160ECE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21B3653D-F947-4D67-8F1F-2387CA160ECE}.Debug|Win32.Build.0 = Debug|Win32
+		{21B3653D-F947-4D67-8F1F-2387CA160ECE}.Release|Win32.ActiveCfg = Release|Win32
+		{21B3653D-F947-4D67-8F1F-2387CA160ECE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,4 +21,5 @@ $*/Debug
 *.msi
 *.msm
 *.exe
+*.opensdf
 
