@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_longestCommonPrefix", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_twoSum", "1_twoSum\1_twoSum.vcxproj", "{C9B637CF-86F8-4556-BF87-80751D59D5D6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_containerWithMostWater", "11_containerWithMostWater\11_containerWithMostWater.vcxproj", "{53B1DD56-B212-4BC4-80DF-1B83EE08E393}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_integerToRoman", "12_integerToRoman\12_integerToRoman.vcxproj", "{D5E0AF61-CBB7-46D2-8D36-86DBF58BFD58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +43,14 @@ Global
 		{C9B637CF-86F8-4556-BF87-80751D59D5D6}.Debug|Win32.Build.0 = Debug|Win32
 		{C9B637CF-86F8-4556-BF87-80751D59D5D6}.Release|Win32.ActiveCfg = Release|Win32
 		{C9B637CF-86F8-4556-BF87-80751D59D5D6}.Release|Win32.Build.0 = Release|Win32
+		{53B1DD56-B212-4BC4-80DF-1B83EE08E393}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53B1DD56-B212-4BC4-80DF-1B83EE08E393}.Debug|Win32.Build.0 = Debug|Win32
+		{53B1DD56-B212-4BC4-80DF-1B83EE08E393}.Release|Win32.ActiveCfg = Release|Win32
+		{53B1DD56-B212-4BC4-80DF-1B83EE08E393}.Release|Win32.Build.0 = Release|Win32
+		{D5E0AF61-CBB7-46D2-8D36-86DBF58BFD58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5E0AF61-CBB7-46D2-8D36-86DBF58BFD58}.Debug|Win32.Build.0 = Debug|Win32
+		{D5E0AF61-CBB7-46D2-8D36-86DBF58BFD58}.Release|Win32.ActiveCfg = Release|Win32
+		{D5E0AF61-CBB7-46D2-8D36-86DBF58BFD58}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
