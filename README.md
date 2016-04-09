@@ -1,6 +1,6 @@
 ﻿# leetCode
-LettCode OJ代码
-代码在VS2013中编译调试通过。
+LeetCode OJ代码
+代码在WIN7 X64 + VS2013中编译调试通过。
 
 各题在LeetCode上最后的接受成绩：
 题号       题目                                                                 时间            百分比
