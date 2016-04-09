@@ -10,6 +10,8 @@ LettCode OJ代码
 5          Longest Palindromic Substring                                        12ms            73.48%
 6          ZigZag Conversion                                                    16ms            70.79%
 7          Reverse Integer                                                      8ms             37.52%
+8          String To Integer                                                    8ms             67.28%
+9          Palindrome Number                                                    76ms            65.37%
 11         Container With Most Water                                            24ms            34.27%
 12         Integer to Roman                                                     40ms            33.70%
 14         Longers Common Prefix                                                4ms             35.42%

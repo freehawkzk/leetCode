@@ -18,53 +18,42 @@ int myAtoi(string str)
 	for (int i = 0; i < nLength; i++)
 	{
 		nChar = str[i];
-		if (nChar == ' '&& bStarted == false)
+		if (bStarted == false)
 		{
-			continue;
+			if (nChar == ' ')
+			{
+				continue;
+			}
+			else if (nChar == '-')
+			{
+				nSign = -1;
+				bStarted = true;
+			}
+			else if (nChar == '+')
+			{
+				bStarted = true;
+			}
+			else if (nChar >= '0' && nChar <= '9')
+			{
+				lResult = nChar - '0';
+				bStarted = true;
+			}
+			else
+			{
+				break;
+			}
 		}
 		else
 		{
-			if (nChar == '-' || nChar == '+' || (nChar >= '0' && nChar <= '9'))
+			if (nChar >= '0' && nChar <= '9')
 			{
-				if (bStarted == false)
+				lResult = lResult * 10 + nChar - '0';
+				if (lResult > INT_MAX)
 				{
-					if (nChar == '-')
-					{
-						nSign = -1;
-						bStarted = true;
-					}
-					else if (nChar == '+')
-					{
-						nSign = 1;
-						bStarted = true;
-					}
+					if (nSign == 1)
+						return INT_MAX;
 					else
-					{
-						lResult = nChar - '0';
-						bStarted = true;
-					}
-				}
-				else
-				{
-					if (nChar == '-')
-					{
-						break;
-					}
-					else if (nChar == '+')
-					{
-						break;
-					}
-					else
-					{
-						lResult = lResult * 10 + nChar - '0';
-						if (lResult > INT_MAX)
-						{
-							if (nSign == 1)
-								return INT_MAX;
-							else
-								return INT_MIN;
-						}
-					}
+						return INT_MIN;
 				}
 			}
 			else
