@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_addtwonum", "2_addtwonum\2_addtwonum.vcxproj", "{88440CB3-7B3E-4E2E-9E74-C3B473936031}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_isPalindromeNumber", "9_isPalindromeNumber\9_isPalindromeNumber.vcxproj", "{00AFF189-B330-44C1-BA6B-52134C9A1AB9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_stringToInteger", "8_stringToInteger\8_stringToInteger.vcxproj", "{284CBB8A-6B11-44C2-B3AF-47C20B9402D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_letterCombinationsofaPhoneNumber", "17_letterCombinationsofaPhoneNumber\17_letterCombinationsofaPhoneNumber.vcxproj", "{7FC476A5-A06E-4016-94DA-FC4F1777722B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{284CBB8A-6B11-44C2-B3AF-47C20B9402D0}.Debug|Win32.Build.0 = Debug|Win32
 		{284CBB8A-6B11-44C2-B3AF-47C20B9402D0}.Release|Win32.ActiveCfg = Release|Win32
 		{284CBB8A-6B11-44C2-B3AF-47C20B9402D0}.Release|Win32.Build.0 = Release|Win32
+		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Debug|Win32.Build.0 = Debug|Win32
+		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Release|Win32.ActiveCfg = Release|Win32
+		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
