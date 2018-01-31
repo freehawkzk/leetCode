@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "771_jewelsandStones", "771_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "461_hammingDistance", "461_hammingDistance\461_hammingDistance.vcxproj", "{95653BDE-C758-47C1-87EE-0635CCFFF349}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "657_judgeRouteCircle", "657_judgeRouteCircle\657_judgeRouteCircle.vcxproj", "{63EB1535-C39F-438B-99BE-98E0A8B4F9D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -93,6 +95,10 @@ Global
 		{95653BDE-C758-47C1-87EE-0635CCFFF349}.Debug|Win32.Build.0 = Debug|Win32
 		{95653BDE-C758-47C1-87EE-0635CCFFF349}.Release|Win32.ActiveCfg = Release|Win32
 		{95653BDE-C758-47C1-87EE-0635CCFFF349}.Release|Win32.Build.0 = Release|Win32
+		{63EB1535-C39F-438B-99BE-98E0A8B4F9D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63EB1535-C39F-438B-99BE-98E0A8B4F9D9}.Debug|Win32.Build.0 = Debug|Win32
+		{63EB1535-C39F-438B-99BE-98E0A8B4F9D9}.Release|Win32.ActiveCfg = Release|Win32
+		{63EB1535-C39F-438B-99BE-98E0A8B4F9D9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
