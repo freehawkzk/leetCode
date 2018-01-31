@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_stringToInteger", "8_stri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_letterCombinationsofaPhoneNumber", "17_letterCombinationsofaPhoneNumber\17_letterCombinationsofaPhoneNumber.vcxproj", "{7FC476A5-A06E-4016-94DA-FC4F1777722B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "771_jewelsandStones", "771_jewelsandStones\771_jewelsandStones.vcxproj", "{F35DAFAD-46ED-42F2-986B-02A1E32693DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,10 @@ Global
 		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Debug|Win32.Build.0 = Debug|Win32
 		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Release|Win32.ActiveCfg = Release|Win32
 		{7FC476A5-A06E-4016-94DA-FC4F1777722B}.Release|Win32.Build.0 = Release|Win32
+		{F35DAFAD-46ED-42F2-986B-02A1E32693DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F35DAFAD-46ED-42F2-986B-02A1E32693DB}.Debug|Win32.Build.0 = Debug|Win32
+		{F35DAFAD-46ED-42F2-986B-02A1E32693DB}.Release|Win32.ActiveCfg = Release|Win32
+		{F35DAFAD-46ED-42F2-986B-02A1E32693DB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
