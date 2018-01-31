@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "766_toeplitzMatrix", "766_t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "476_numberComplement", "476_numberComplement\476_numberComplement.vcxproj", "{C756215F-B593-4C11-A77B-AD9EF35306E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "557_reverseWordsinaStringIII", "557_reverseWordsinaStringIII\557_reverseWordsinaStringIII.vcxproj", "{715EE2F1-6F64-43C8-80DD-B88A5ED62EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -123,6 +125,10 @@ Global
 		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Debug|Win32.Build.0 = Debug|Win32
 		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Release|Win32.ActiveCfg = Release|Win32
 		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Release|Win32.Build.0 = Release|Win32
+		{715EE2F1-6F64-43C8-80DD-B88A5ED62EA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{715EE2F1-6F64-43C8-80DD-B88A5ED62EA9}.Debug|Win32.Build.0 = Debug|Win32
+		{715EE2F1-6F64-43C8-80DD-B88A5ED62EA9}.Release|Win32.ActiveCfg = Release|Win32
+		{715EE2F1-6F64-43C8-80DD-B88A5ED62EA9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
