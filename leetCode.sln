@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "561_arrayPartitionI", "561_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "766_toeplitzMatrix", "766_toeplitzMatrix\766_toeplitzMatrix.vcxproj", "{E0570A47-3115-4D3A-871F-DDDB27595194}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "476_numberComplement", "476_numberComplement\476_numberComplement.vcxproj", "{C756215F-B593-4C11-A77B-AD9EF35306E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{E0570A47-3115-4D3A-871F-DDDB27595194}.Debug|Win32.Build.0 = Debug|Win32
 		{E0570A47-3115-4D3A-871F-DDDB27595194}.Release|Win32.ActiveCfg = Release|Win32
 		{E0570A47-3115-4D3A-871F-DDDB27595194}.Release|Win32.Build.0 = Release|Win32
+		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Debug|Win32.Build.0 = Debug|Win32
+		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Release|Win32.ActiveCfg = Release|Win32
+		{C756215F-B593-4C11-A77B-AD9EF35306E7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
