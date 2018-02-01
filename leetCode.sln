@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "521_longestUncommonSubseque
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "693_binaryNumberwithAlternatingBits", "693_binaryNumberwithAlternatingBits\693_binaryNumberwithAlternatingBits.vcxproj", "{05348A7B-33C0-4F94-A4A2-987D136250D8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "292_nimGame", "292_nimGame\292_nimGame.vcxproj", "{B9B61CF8-D3E9-454F-B44F-497B6950EDFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -189,6 +191,10 @@ Global
 		{05348A7B-33C0-4F94-A4A2-987D136250D8}.Debug|Win32.Build.0 = Debug|Win32
 		{05348A7B-33C0-4F94-A4A2-987D136250D8}.Release|Win32.ActiveCfg = Release|Win32
 		{05348A7B-33C0-4F94-A4A2-987D136250D8}.Release|Win32.Build.0 = Release|Win32
+		{B9B61CF8-D3E9-454F-B44F-497B6950EDFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9B61CF8-D3E9-454F-B44F-497B6950EDFB}.Debug|Win32.Build.0 = Debug|Win32
+		{B9B61CF8-D3E9-454F-B44F-497B6950EDFB}.Release|Win32.ActiveCfg = Release|Win32
+		{B9B61CF8-D3E9-454F-B44F-497B6950EDFB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
