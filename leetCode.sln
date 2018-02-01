@@ -55,6 +55,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "566_reshapetheMatrix", "566
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "463_islandPerimeter", "463_islandPerimeter\463_islandPerimeter.vcxproj", "{679F75AC-D0F4-492C-B70F-3FBF4977D982}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "762_primeNumberofSetBitsinBinaryRepresentation", "762_primeNumberofSetBitsinBinaryRepresentation\762_primeNumberofSetBitsinBinaryRepresentation.vcxproj", "{BB95CD6E-DB6E-4761-8424-A474933E73C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "496_nextGreaterElementI", "496_nextGreaterElementI\496_nextGreaterElementI.vcxproj", "{4601E41D-1333-459A-8BD0-A0387602C599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -165,6 +169,14 @@ Global
 		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Debug|Win32.Build.0 = Debug|Win32
 		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Release|Win32.ActiveCfg = Release|Win32
 		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Release|Win32.Build.0 = Release|Win32
+		{BB95CD6E-DB6E-4761-8424-A474933E73C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB95CD6E-DB6E-4761-8424-A474933E73C1}.Debug|Win32.Build.0 = Debug|Win32
+		{BB95CD6E-DB6E-4761-8424-A474933E73C1}.Release|Win32.ActiveCfg = Release|Win32
+		{BB95CD6E-DB6E-4761-8424-A474933E73C1}.Release|Win32.Build.0 = Release|Win32
+		{4601E41D-1333-459A-8BD0-A0387602C599}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4601E41D-1333-459A-8BD0-A0387602C599}.Debug|Win32.Build.0 = Debug|Win32
+		{4601E41D-1333-459A-8BD0-A0387602C599}.Release|Win32.ActiveCfg = Release|Win32
+		{4601E41D-1333-459A-8BD0-A0387602C599}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
