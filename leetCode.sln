@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "762_primeNumberofSetBitsinB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "496_nextGreaterElementI", "496_nextGreaterElementI\496_nextGreaterElementI.vcxproj", "{4601E41D-1333-459A-8BD0-A0387602C599}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "521_longestUncommonSubsequenceI", "521_longestUncommonSubsequenceI\521_longestUncommonSubsequenceI.vcxproj", "{80E0CB1E-78A5-4A64-BFB6-3608CCE1FB71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -177,6 +179,10 @@ Global
 		{4601E41D-1333-459A-8BD0-A0387602C599}.Debug|Win32.Build.0 = Debug|Win32
 		{4601E41D-1333-459A-8BD0-A0387602C599}.Release|Win32.ActiveCfg = Release|Win32
 		{4601E41D-1333-459A-8BD0-A0387602C599}.Release|Win32.Build.0 = Release|Win32
+		{80E0CB1E-78A5-4A64-BFB6-3608CCE1FB71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80E0CB1E-78A5-4A64-BFB6-3608CCE1FB71}.Debug|Win32.Build.0 = Debug|Win32
+		{80E0CB1E-78A5-4A64-BFB6-3608CCE1FB71}.Release|Win32.ActiveCfg = Release|Win32
+		{80E0CB1E-78A5-4A64-BFB6-3608CCE1FB71}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
