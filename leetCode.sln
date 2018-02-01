@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "412_fizzBuzz", "412_fizzBuz
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "575_distributeCandies", "575_distributeCandies\575_distributeCandies.vcxproj", "{A8155D86-BA9F-4284-8073-86C79E431E72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "566_reshapetheMatrix", "566_reshapetheMatrix\566_reshapetheMatrix.vcxproj", "{97E66DB2-B260-4F6B-8D56-81D871C04AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -153,6 +155,10 @@ Global
 		{A8155D86-BA9F-4284-8073-86C79E431E72}.Debug|Win32.Build.0 = Debug|Win32
 		{A8155D86-BA9F-4284-8073-86C79E431E72}.Release|Win32.ActiveCfg = Release|Win32
 		{A8155D86-BA9F-4284-8073-86C79E431E72}.Release|Win32.Build.0 = Release|Win32
+		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Debug|Win32.Build.0 = Debug|Win32
+		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Release|Win32.ActiveCfg = Release|Win32
+		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
