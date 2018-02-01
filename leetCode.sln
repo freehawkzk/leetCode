@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "557_reverseWordsinaStringII
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "682_baseballGame", "682_baseballGame\682_baseballGame.vcxproj", "{A30821BA-19AD-4FA6-9341-91A8EFD5089E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "669_trimaBinarySearchTree", "669_trimaBinarySearchTree\669_trimaBinarySearchTree.vcxproj", "{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -135,6 +137,10 @@ Global
 		{A30821BA-19AD-4FA6-9341-91A8EFD5089E}.Debug|Win32.Build.0 = Debug|Win32
 		{A30821BA-19AD-4FA6-9341-91A8EFD5089E}.Release|Win32.ActiveCfg = Release|Win32
 		{A30821BA-19AD-4FA6-9341-91A8EFD5089E}.Release|Win32.Build.0 = Release|Win32
+		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Debug|Win32.Build.0 = Debug|Win32
+		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Release|Win32.ActiveCfg = Release|Win32
+		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
