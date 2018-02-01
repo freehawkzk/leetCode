@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "136_singleNumber", "136_sin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "485_maxConsecutiveOnes", "485_maxConsecutiveOnes\485_maxConsecutiveOnes.vcxproj", "{56CBB603-2313-411A-970C-214B2D6FEB9C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "226_invertBinaryTree", "226_invertBinaryTree\226_invertBinaryTree.vcxproj", "{F8D12CFA-F91B-43ED-B375-5449AE25C628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -207,6 +209,10 @@ Global
 		{56CBB603-2313-411A-970C-214B2D6FEB9C}.Debug|Win32.Build.0 = Debug|Win32
 		{56CBB603-2313-411A-970C-214B2D6FEB9C}.Release|Win32.ActiveCfg = Release|Win32
 		{56CBB603-2313-411A-970C-214B2D6FEB9C}.Release|Win32.Build.0 = Release|Win32
+		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Debug|Win32.Build.0 = Debug|Win32
+		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Release|Win32.ActiveCfg = Release|Win32
+		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
