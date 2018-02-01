@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "682_baseballGame", "682_bas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "669_trimaBinarySearchTree", "669_trimaBinarySearchTree\669_trimaBinarySearchTree.vcxproj", "{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "412_fizzBuzz", "412_fizzBuzz\412_fizzBuzz.vcxproj", "{0BE475B2-8DE8-4B0B-9EDB-4861515D0F12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -141,6 +143,10 @@ Global
 		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Debug|Win32.Build.0 = Debug|Win32
 		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Release|Win32.ActiveCfg = Release|Win32
 		{2CE416AC-B66E-4C7F-856C-64ED5CDEC841}.Release|Win32.Build.0 = Release|Win32
+		{0BE475B2-8DE8-4B0B-9EDB-4861515D0F12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BE475B2-8DE8-4B0B-9EDB-4861515D0F12}.Debug|Win32.Build.0 = Debug|Win32
+		{0BE475B2-8DE8-4B0B-9EDB-4861515D0F12}.Release|Win32.ActiveCfg = Release|Win32
+		{0BE475B2-8DE8-4B0B-9EDB-4861515D0F12}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
