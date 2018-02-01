@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "575_distributeCandies", "57
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "566_reshapetheMatrix", "566_reshapetheMatrix\566_reshapetheMatrix.vcxproj", "{97E66DB2-B260-4F6B-8D56-81D871C04AA7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "463_islandPerimeter", "463_islandPerimeter\463_islandPerimeter.vcxproj", "{679F75AC-D0F4-492C-B70F-3FBF4977D982}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -159,6 +161,10 @@ Global
 		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Debug|Win32.Build.0 = Debug|Win32
 		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Release|Win32.ActiveCfg = Release|Win32
 		{97E66DB2-B260-4F6B-8D56-81D871C04AA7}.Release|Win32.Build.0 = Release|Win32
+		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Debug|Win32.ActiveCfg = Debug|Win32
+		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Debug|Win32.Build.0 = Debug|Win32
+		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Release|Win32.ActiveCfg = Release|Win32
+		{679F75AC-D0F4-492C-B70F-3FBF4977D982}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
