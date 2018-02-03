@@ -71,6 +71,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "485_maxConsecutiveOnes", "4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "226_invertBinaryTree", "226_invertBinaryTree\226_invertBinaryTree.vcxproj", "{F8D12CFA-F91B-43ED-B375-5449AE25C628}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "690_employeeImportance", "690_employeeImportance\690_employeeImportance.vcxproj", "{F0DA1935-8D37-45FA-B870-9F6FF03877C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "520_detectCapital", "520_detectCapital\520_detectCapital.vcxproj", "{08746D88-7FA1-4BDF-967E-54BFBD8F4092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -213,6 +217,14 @@ Global
 		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Debug|Win32.Build.0 = Debug|Win32
 		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Release|Win32.ActiveCfg = Release|Win32
 		{F8D12CFA-F91B-43ED-B375-5449AE25C628}.Release|Win32.Build.0 = Release|Win32
+		{F0DA1935-8D37-45FA-B870-9F6FF03877C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0DA1935-8D37-45FA-B870-9F6FF03877C4}.Debug|Win32.Build.0 = Debug|Win32
+		{F0DA1935-8D37-45FA-B870-9F6FF03877C4}.Release|Win32.ActiveCfg = Release|Win32
+		{F0DA1935-8D37-45FA-B870-9F6FF03877C4}.Release|Win32.Build.0 = Release|Win32
+		{08746D88-7FA1-4BDF-967E-54BFBD8F4092}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08746D88-7FA1-4BDF-967E-54BFBD8F4092}.Debug|Win32.Build.0 = Debug|Win32
+		{08746D88-7FA1-4BDF-967E-54BFBD8F4092}.Release|Win32.ActiveCfg = Release|Win32
+		{08746D88-7FA1-4BDF-967E-54BFBD8F4092}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

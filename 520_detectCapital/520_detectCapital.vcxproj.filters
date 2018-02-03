@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="690_employeeImportance.cpp">
+    <ClCompile Include="520_detectCapital.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

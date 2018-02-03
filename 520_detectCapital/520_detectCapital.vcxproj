@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F0DA1935-8D37-45FA-B870-9F6FF03877C4}</ProjectGuid>
+    <ProjectGuid>{08746D88-7FA1-4BDF-967E-54BFBD8F4092}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My690_employeeImportance</RootNamespace>
+    <RootNamespace>My520_detectCapital</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="690_employeeImportance.cpp" />
+    <ClCompile Include="520_detectCapital.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
