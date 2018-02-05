@@ -41,6 +41,7 @@ bool detectCapitalUse(string word)
 	//	return true;
 	//}
 
+
 	//bool bFirstCap = false;
 	//if (word[0] >='A' && word[0] <= 'Z')
 	//	bFirstCap = true;
