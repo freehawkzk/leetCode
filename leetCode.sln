@@ -87,6 +87,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "389_findtheDifference", "38
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "598_rangeAdditionII", "598_rangeAdditionII\598_rangeAdditionII.vcxproj", "{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "171_excelSheetColumnNumber", "171_excelSheetColumnNumber\171_excelSheetColumnNumber.vcxproj", "{6BB9CA96-281C-4AD6-80FE-F30DD3AC9A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -261,6 +263,10 @@ Global
 		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Debug|Win32.Build.0 = Debug|Win32
 		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Release|Win32.ActiveCfg = Release|Win32
 		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Release|Win32.Build.0 = Release|Win32
+		{6BB9CA96-281C-4AD6-80FE-F30DD3AC9A38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BB9CA96-281C-4AD6-80FE-F30DD3AC9A38}.Debug|Win32.Build.0 = Debug|Win32
+		{6BB9CA96-281C-4AD6-80FE-F30DD3AC9A38}.Release|Win32.ActiveCfg = Release|Win32
+		{6BB9CA96-281C-4AD6-80FE-F30DD3AC9A38}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
