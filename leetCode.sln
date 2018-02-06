@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "283_moveZeroes", "283_moveZ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "389_findtheDifference", "389_findtheDifference\389_findtheDifference.vcxproj", "{513C7D5D-B141-4176-B1AA-53A40FAF2703}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "598_rangeAdditionII", "598_rangeAdditionII\598_rangeAdditionII.vcxproj", "{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -255,6 +257,10 @@ Global
 		{513C7D5D-B141-4176-B1AA-53A40FAF2703}.Debug|Win32.Build.0 = Debug|Win32
 		{513C7D5D-B141-4176-B1AA-53A40FAF2703}.Release|Win32.ActiveCfg = Release|Win32
 		{513C7D5D-B141-4176-B1AA-53A40FAF2703}.Release|Win32.Build.0 = Release|Win32
+		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Debug|Win32.Build.0 = Debug|Win32
+		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Release|Win32.ActiveCfg = Release|Win32
+		{F7D6EE38-F9D9-4E6E-8C7A-C97F8E89A5FB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
