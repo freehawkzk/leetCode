@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "171_excelSheetColumnNumber"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "492_constructtheRectangle", "492_constructtheRectangle\492_constructtheRectangle.vcxproj", "{43F815BC-BED9-4006-B583-95E398B36240}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "453_minimumMovestoEqualArrayElements", "453_minimumMovestoEqualArrayElements\453_minimumMovestoEqualArrayElements.vcxproj", "{D304E54E-7919-4867-9D11-DF059606B172}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -273,6 +275,10 @@ Global
 		{43F815BC-BED9-4006-B583-95E398B36240}.Debug|Win32.Build.0 = Debug|Win32
 		{43F815BC-BED9-4006-B583-95E398B36240}.Release|Win32.ActiveCfg = Release|Win32
 		{43F815BC-BED9-4006-B583-95E398B36240}.Release|Win32.Build.0 = Release|Win32
+		{D304E54E-7919-4867-9D11-DF059606B172}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D304E54E-7919-4867-9D11-DF059606B172}.Debug|Win32.Build.0 = Debug|Win32
+		{D304E54E-7919-4867-9D11-DF059606B172}.Release|Win32.ActiveCfg = Release|Win32
+		{D304E54E-7919-4867-9D11-DF059606B172}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
