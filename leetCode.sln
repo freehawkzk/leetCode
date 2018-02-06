@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "258_addDigits", "258_addDig
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "696_countBinarySubstrings", "696_countBinarySubstrings\696_countBinarySubstrings.vcxproj", "{6F921539-2336-48A6-9B25-6C1837FDDC3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "448_findAllNumbersDisappearedinanArray", "448_findAllNumbersDisappearedinanArray\448_findAllNumbersDisappearedinanArray.vcxproj", "{D46F6439-BA12-4F6E-A870-17DECCD07712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -237,6 +239,10 @@ Global
 		{6F921539-2336-48A6-9B25-6C1837FDDC3F}.Debug|Win32.Build.0 = Debug|Win32
 		{6F921539-2336-48A6-9B25-6C1837FDDC3F}.Release|Win32.ActiveCfg = Release|Win32
 		{6F921539-2336-48A6-9B25-6C1837FDDC3F}.Release|Win32.Build.0 = Release|Win32
+		{D46F6439-BA12-4F6E-A870-17DECCD07712}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D46F6439-BA12-4F6E-A870-17DECCD07712}.Debug|Win32.Build.0 = Debug|Win32
+		{D46F6439-BA12-4F6E-A870-17DECCD07712}.Release|Win32.ActiveCfg = Release|Win32
+		{D46F6439-BA12-4F6E-A870-17DECCD07712}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
