@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100_sameTree", "100_sameTre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404_sumofLeftLeaves", "404_sumofLeftLeaves\404_sumofLeftLeaves.vcxproj", "{81459B88-B162-4178-B0D4-155AB2D3EDDC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "455_assignCookies", "455_assignCookies\455_assignCookies.vcxproj", "{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -321,6 +323,10 @@ Global
 		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Debug|Win32.Build.0 = Debug|Win32
 		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Release|Win32.ActiveCfg = Release|Win32
 		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Release|Win32.Build.0 = Release|Win32
+		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Debug|Win32.Build.0 = Debug|Win32
+		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Release|Win32.ActiveCfg = Release|Win32
+		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
