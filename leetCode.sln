@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "563_binaryTreeTilt", "563_b
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387_firstUniqueCharacterinaString", "387_firstUniqueCharacterinaString\387_firstUniqueCharacterinaString.vcxproj", "{188A4F2B-B48C-4946-B118-507E89D49C45}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "167_twoSumII-Inputarrayissorted", "167_twoSumII-Inputarrayissorted\167_twoSumII-Inputarrayissorted.vcxproj", "{C5F65232-F2A6-4120-A37F-3B68F1452B2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -339,6 +341,10 @@ Global
 		{188A4F2B-B48C-4946-B118-507E89D49C45}.Debug|Win32.Build.0 = Debug|Win32
 		{188A4F2B-B48C-4946-B118-507E89D49C45}.Release|Win32.ActiveCfg = Release|Win32
 		{188A4F2B-B48C-4946-B118-507E89D49C45}.Release|Win32.Build.0 = Release|Win32
+		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Debug|Win32.Build.0 = Debug|Win32
+		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Release|Win32.ActiveCfg = Release|Win32
+		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
