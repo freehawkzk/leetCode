@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387_firstUniqueCharacterina
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "167_twoSumII-Inputarrayissorted", "167_twoSumII-Inputarrayissorted\167_twoSumII-Inputarrayissorted.vcxproj", "{C5F65232-F2A6-4120-A37F-3B68F1452B2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "242_validAnagram", "242_validAnagram\242_validAnagram.vcxproj", "{99C0D507-40E3-454F-BFBA-F2FBF6C2C434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -345,6 +347,10 @@ Global
 		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Debug|Win32.Build.0 = Debug|Win32
 		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Release|Win32.ActiveCfg = Release|Win32
 		{C5F65232-F2A6-4120-A37F-3B68F1452B2D}.Release|Win32.Build.0 = Release|Win32
+		{99C0D507-40E3-454F-BFBA-F2FBF6C2C434}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99C0D507-40E3-454F-BFBA-F2FBF6C2C434}.Debug|Win32.Build.0 = Debug|Win32
+		{99C0D507-40E3-454F-BFBA-F2FBF6C2C434}.Release|Win32.ActiveCfg = Release|Win32
+		{99C0D507-40E3-454F-BFBA-F2FBF6C2C434}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
