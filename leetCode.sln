@@ -109,6 +109,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404_sumofLeftLeaves", "404_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "455_assignCookies", "455_assignCookies\455_assignCookies.vcxproj", "{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "563_binaryTreeTilt", "563_binaryTreeTilt\563_binaryTreeTilt.vcxproj", "{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -327,6 +329,10 @@ Global
 		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Debug|Win32.Build.0 = Debug|Win32
 		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Release|Win32.ActiveCfg = Release|Win32
 		{FD0F8AAA-40A8-42DB-A450-F665B6561E7F}.Release|Win32.Build.0 = Release|Win32
+		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Debug|Win32.Build.0 = Debug|Win32
+		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Release|Win32.ActiveCfg = Release|Win32
+		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
