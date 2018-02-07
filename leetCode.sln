@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "455_assignCookies", "455_as
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "563_binaryTreeTilt", "563_binaryTreeTilt\563_binaryTreeTilt.vcxproj", "{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387_firstUniqueCharacterinaString", "387_firstUniqueCharacterinaString\387_firstUniqueCharacterinaString.vcxproj", "{188A4F2B-B48C-4946-B118-507E89D49C45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -333,6 +335,10 @@ Global
 		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Debug|Win32.Build.0 = Debug|Win32
 		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Release|Win32.ActiveCfg = Release|Win32
 		{A9AF75B3-6ED9-41DD-819F-99DB6A75D3BA}.Release|Win32.Build.0 = Release|Win32
+		{188A4F2B-B48C-4946-B118-507E89D49C45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{188A4F2B-B48C-4946-B118-507E89D49C45}.Debug|Win32.Build.0 = Debug|Win32
+		{188A4F2B-B48C-4946-B118-507E89D49C45}.Release|Win32.ActiveCfg = Release|Win32
+		{188A4F2B-B48C-4946-B118-507E89D49C45}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
