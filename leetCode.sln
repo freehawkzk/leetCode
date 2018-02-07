@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "383_ransomNote", "383_ranso
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "100_sameTree", "100_sameTree\100_sameTree.vcxproj", "{8AD5159B-549D-4C69-988E-DB452B7312C2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404_sumofLeftLeaves", "404_sumofLeftLeaves\404_sumofLeftLeaves.vcxproj", "{81459B88-B162-4178-B0D4-155AB2D3EDDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -315,6 +317,10 @@ Global
 		{8AD5159B-549D-4C69-988E-DB452B7312C2}.Debug|Win32.Build.0 = Debug|Win32
 		{8AD5159B-549D-4C69-988E-DB452B7312C2}.Release|Win32.ActiveCfg = Release|Win32
 		{8AD5159B-549D-4C69-988E-DB452B7312C2}.Release|Win32.Build.0 = Release|Win32
+		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Debug|Win32.Build.0 = Debug|Win32
+		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Release|Win32.ActiveCfg = Release|Win32
+		{81459B88-B162-4178-B0D4-155AB2D3EDDC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
