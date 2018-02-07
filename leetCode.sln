@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "349_intersectionofTwoArrays
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "122_bestTimetoBuyandSellStockII", "122_bestTimetoBuyandSellStockII\122_bestTimetoBuyandSellStockII.vcxproj", "{4619EA7C-C00D-4D65-B33A-DB84C719B156}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "169_majorityElement", "169_majorityElement\169_majorityElement.vcxproj", "{2B016BE1-83B3-4DE7-A5A0-17BB04D9788F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -297,6 +299,10 @@ Global
 		{4619EA7C-C00D-4D65-B33A-DB84C719B156}.Debug|Win32.Build.0 = Debug|Win32
 		{4619EA7C-C00D-4D65-B33A-DB84C719B156}.Release|Win32.ActiveCfg = Release|Win32
 		{4619EA7C-C00D-4D65-B33A-DB84C719B156}.Release|Win32.Build.0 = Release|Win32
+		{2B016BE1-83B3-4DE7-A5A0-17BB04D9788F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B016BE1-83B3-4DE7-A5A0-17BB04D9788F}.Debug|Win32.Build.0 = Debug|Win32
+		{2B016BE1-83B3-4DE7-A5A0-17BB04D9788F}.Release|Win32.ActiveCfg = Release|Win32
+		{2B016BE1-83B3-4DE7-A5A0-17BB04D9788F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
