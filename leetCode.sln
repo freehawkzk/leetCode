@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "242_validAnagram", "242_val
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "530_minimumAbsoluteDifferenceinBST", "530_minimumAbsoluteDifferenceinBST\530_minimumAbsoluteDifferenceinBST.vcxproj", "{1040394C-B799-493C-A0B8-1DA3E640B2D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "506_relativeRanks", "506_relativeRanks\506_relativeRanks.vcxproj", "{495B4F6E-0D86-402F-8A2D-9A804F4B1DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -357,6 +359,10 @@ Global
 		{1040394C-B799-493C-A0B8-1DA3E640B2D3}.Debug|Win32.Build.0 = Debug|Win32
 		{1040394C-B799-493C-A0B8-1DA3E640B2D3}.Release|Win32.ActiveCfg = Release|Win32
 		{1040394C-B799-493C-A0B8-1DA3E640B2D3}.Release|Win32.Build.0 = Release|Win32
+		{495B4F6E-0D86-402F-8A2D-9A804F4B1DA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{495B4F6E-0D86-402F-8A2D-9A804F4B1DA6}.Debug|Win32.Build.0 = Debug|Win32
+		{495B4F6E-0D86-402F-8A2D-9A804F4B1DA6}.Release|Win32.ActiveCfg = Release|Win32
+		{495B4F6E-0D86-402F-8A2D-9A804F4B1DA6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
