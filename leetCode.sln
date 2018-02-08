@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "506_relativeRanks", "506_re
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "697_degreeofanArray", "697_degreeofanArray\697_degreeofanArray.vcxproj", "{37DD114A-049E-4C88-B4B7-97EE16DC8CF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "217_containsDuplicate", "217_containsDuplicate\217_containsDuplicate.vcxproj", "{6FFDCA02-5618-48D4-8107-A5FC8DF43114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -369,6 +371,10 @@ Global
 		{37DD114A-049E-4C88-B4B7-97EE16DC8CF6}.Debug|Win32.Build.0 = Debug|Win32
 		{37DD114A-049E-4C88-B4B7-97EE16DC8CF6}.Release|Win32.ActiveCfg = Release|Win32
 		{37DD114A-049E-4C88-B4B7-97EE16DC8CF6}.Release|Win32.Build.0 = Release|Win32
+		{6FFDCA02-5618-48D4-8107-A5FC8DF43114}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FFDCA02-5618-48D4-8107-A5FC8DF43114}.Debug|Win32.Build.0 = Debug|Win32
+		{6FFDCA02-5618-48D4-8107-A5FC8DF43114}.Release|Win32.ActiveCfg = Release|Win32
+		{6FFDCA02-5618-48D4-8107-A5FC8DF43114}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
