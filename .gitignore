@@ -25,3 +25,6 @@ $*/Debug
 
 *.pch
 *.ipch
+*.suo
+*.filters
+*.suo
