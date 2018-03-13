@@ -129,6 +129,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "206_reverseLinkedList", "20
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "599_minimumIndexSumofTwoLists", "599_minimumIndexSumofTwoLists\599_minimumIndexSumofTwoLists.vcxproj", "{DD74695C-DDC2-4F6B-AE76-359C1AE859C4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "447_numberofBoomerangs", "447_numberofBoomerangs\447_numberofBoomerangs.vcxproj", "{E38BA80D-D603-4B8E-87DC-D142E21AC92C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "661_imageSmoother", "661_imageSmoother\661_imageSmoother.vcxproj", "{68FDCFA0-36AD-418C-B1FA-68196586A681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -387,6 +391,14 @@ Global
 		{DD74695C-DDC2-4F6B-AE76-359C1AE859C4}.Debug|Win32.Build.0 = Debug|Win32
 		{DD74695C-DDC2-4F6B-AE76-359C1AE859C4}.Release|Win32.ActiveCfg = Release|Win32
 		{DD74695C-DDC2-4F6B-AE76-359C1AE859C4}.Release|Win32.Build.0 = Release|Win32
+		{E38BA80D-D603-4B8E-87DC-D142E21AC92C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E38BA80D-D603-4B8E-87DC-D142E21AC92C}.Debug|Win32.Build.0 = Debug|Win32
+		{E38BA80D-D603-4B8E-87DC-D142E21AC92C}.Release|Win32.ActiveCfg = Release|Win32
+		{E38BA80D-D603-4B8E-87DC-D142E21AC92C}.Release|Win32.Build.0 = Release|Win32
+		{68FDCFA0-36AD-418C-B1FA-68196586A681}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68FDCFA0-36AD-418C-B1FA-68196586A681}.Debug|Win32.Build.0 = Debug|Win32
+		{68FDCFA0-36AD-418C-B1FA-68196586A681}.Release|Win32.ActiveCfg = Release|Win32
+		{68FDCFA0-36AD-418C-B1FA-68196586A681}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
