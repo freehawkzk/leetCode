@@ -66,6 +66,7 @@ ListNode* mergeKLists(std::vector<ListNode*>& lists)
     }
     //返回头元素的数组的第一个元素
     ListNode* head = 0;
+
     head = tempmap.begin()->second[0];
     return head;
 }
