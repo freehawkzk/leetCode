@@ -1,9 +1,18 @@
 #include<iostream>
 #include <vector>
-
+#include <algorithm>
 double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) 
 {
-
+    std::vector<int> v;
+    v = nums1;
+    v.insert(v.end(), nums2.begin(), nums2.end());
+    sort(v.begin(), v.end());
+    if (v.size() % 2 != 0)
+    {
+        return v[v.size() / 2];
+    }
+    else
+        return (v[v.size() / 2 - 1] + v[v.size() / 2]) / 2.0;
     return 0;
 }
 
