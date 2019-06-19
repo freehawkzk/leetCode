@@ -15,18 +15,18 @@ int removeElement(std::vector<int>& nums, int val)
         else
         {
             nCount--;
-            while (r>l&&nums[r]==val&&nCount>=0)
+            while (r > l&&nums[r] == val&&nCount >= 0)
             {
                 nCount--;
                 r--;
             }
-            
-                temp = nums[l];
-                nums[l] = nums[r];
-                nums[r] = temp;
-                r--;
-            
-           
+
+            temp = nums[l];
+            nums[l] = nums[r];
+            nums[r] = temp;
+            r--;
+
+
         }
     }
     return nCount;
@@ -34,7 +34,7 @@ int removeElement(std::vector<int>& nums, int val)
 
 int main()
 {
-    std::vector<int> nums = {1};
+    std::vector<int> nums = { 1 };
     int val = 1;
     int n = removeElement(nums, val);
     for (int i = 0; i < n; i++)
