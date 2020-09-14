@@ -330,9 +330,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-CMakeFiles/
-CMakeCache.txt
-bin64/model/seeta_fr_v1.0.bin
-背景移除测试程序.rar
-bin64/faces-libfacedetection.txt
-bin64/faces-libfacedetection.txt
+
+build/

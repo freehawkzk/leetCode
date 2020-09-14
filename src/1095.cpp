@@ -1,57 +1,57 @@
 
 /************************************************************************/
-/* 
-1095. É½ÂöÊý×éÖÐ²éÕÒÄ¿±êÖµ
+/*
+1095. É½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½Öµ
 
-£¨ÕâÊÇÒ»¸ö ½»»¥Ê½ÎÊÌâ £©
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 
-¸øÄãÒ»¸ö É½ÂöÊý×é mountainArr£¬ÇëÄã·µ»ØÄÜ¹»Ê¹µÃ mountainArr.get(index) µÈÓÚ target ×îÐ¡ µÄÏÂ±ê index Öµ¡£
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ É½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ mountainArrï¿½ï¿½ï¿½ï¿½ï¿½ã·µï¿½ï¿½ï¿½Ü¹ï¿½Ê¹ï¿½ï¿½ mountainArr.get(index) ï¿½ï¿½ï¿½ï¿½ target ï¿½ï¿½Ð¡ ï¿½ï¿½ï¿½Â±ï¿½ index Öµï¿½ï¿½
 
-Èç¹û²»´æÔÚÕâÑùµÄÏÂ±ê index£¬¾ÍÇë·µ»Ø -1¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½ indexï¿½ï¿½ï¿½ï¿½ï¿½ë·µï¿½ï¿½ -1ï¿½ï¿½
 
 
 
-ËùÎ½É½ÂöÊý×é£¬¼´Êý×é A ¼ÙÈçÊÇÒ»¸öÉ½ÂöÊý×éµÄ»°£¬ÐèÒªÂú×ãÈçÏÂÌõ¼þ£º
+ï¿½ï¿½Î½É½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ A ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-Ê×ÏÈ£¬A.length >= 3
+ï¿½ï¿½ï¿½È£ï¿½A.length >= 3
 
-Æä´Î£¬ÔÚ 0 < i < A.length - 1 Ìõ¼þÏÂ£¬´æÔÚ i Ê¹µÃ£º
+ï¿½ï¿½Î£ï¿½ï¿½ï¿½ 0 < i < A.length - 1 ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ i Ê¹ï¿½Ã£ï¿½
 
 A[0] < A[1] < ... A[i-1] < A[i]
 A[i] > A[i+1] > ... > A[A.length - 1]
 
 
 
-Äã½« ²»ÄÜÖ±½Ó·ÃÎÊ¸ÃÉ½ÂöÊý×é£¬±ØÐëÍ¨¹ý MountainArray ½Ó¿ÚÀ´»ñÈ¡Êý¾Ý£º
+ï¿½ã½« ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó·ï¿½ï¿½Ê¸ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ MountainArray ï¿½Ó¿ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ý£ï¿½
 
-MountainArray.get(k) - »á·µ»ØÊý×éÖÐË÷ÒýÎªk µÄÔªËØ£¨ÏÂ±ê´Ó 0 ¿ªÊ¼£©
-MountainArray.length() - »á·µ»Ø¸ÃÊý×éµÄ³¤¶È
-
-
-
-×¢Òâ£º
-
-¶Ô MountainArray.get ·¢Æð³¬¹ý 100 ´Îµ÷ÓÃµÄÌá½»½«±»ÊÓÎª´íÎó´ð°¸¡£´ËÍâ£¬ÈÎºÎÊÔÍ¼¹æ±ÜÅÐÌâÏµÍ³µÄ½â¾ö·½°¸¶¼½«»áµ¼ÖÂ±ÈÈü×Ê¸ñ±»È¡Ïû¡£
-
-ÎªÁË°ïÖú´ó¼Ò¸üºÃµØÀí½â½»»¥Ê½ÎÊÌâ£¬ÎÒÃÇ×¼±¸ÁËÒ»¸öÑùÀý ¡°´ð°¸¡±£ºhttps://leetcode-cn.com/playground/RKhe3ave£¬Çë×¢ÒâÕâ ²»ÊÇÒ»¸öÕýÈ·´ð°¸¡£
+MountainArray.get(k) - ï¿½á·µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªk ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½Â±ï¿½ï¿½ 0 ï¿½ï¿½Ê¼ï¿½ï¿½
+MountainArray.length() - ï¿½á·µï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½
 
 
 
-Ê¾Àý 1£º
+×¢ï¿½â£º
 
-ÊäÈë£ºarray = [1,2,3,4,5,3,1], target = 3
-Êä³ö£º2
-½âÊÍ£º3 ÔÚÊý×éÖÐ³öÏÖÁËÁ½´Î£¬ÏÂ±ê·Ö±ðÎª 2 ºÍ 5£¬ÎÒÃÇ·µ»Ø×îÐ¡µÄÏÂ±ê 2¡£
+ï¿½ï¿½ MountainArray.get ï¿½ï¿½ï¿½ð³¬¹ï¿½ 100 ï¿½Îµï¿½ï¿½Ãµï¿½ï¿½á½»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ð°¸¡ï¿½ï¿½ï¿½ï¿½â£¬ï¿½Îºï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½áµ¼ï¿½Â±ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 
-Ê¾Àý 2£º
-
-ÊäÈë£ºarray = [0,1,2,4,2,1], target = 3
-Êä³ö£º-1
-½âÊÍ£º3 ÔÚÊý×éÖÐÃ»ÓÐ³öÏÖ£¬·µ»Ø -1¡£
+Îªï¿½Ë°ï¿½ï¿½ï¿½ï¿½ï¿½Ò¸ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½â½»ï¿½ï¿½Ê½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ð°¸¡ï¿½ï¿½ï¿½https://leetcode-cn.com/playground/RKhe3aveï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½È·ï¿½ð°¸¡ï¿½
 
 
 
-ÌáÊ¾£º
+Ê¾ï¿½ï¿½ 1ï¿½ï¿½
+
+ï¿½ï¿½ï¿½ë£ºarray = [1,2,3,4,5,3,1], target = 3
+ï¿½ï¿½ï¿½ï¿½ï¿½2
+ï¿½ï¿½ï¿½Í£ï¿½3 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î£ï¿½ï¿½Â±ï¿½Ö±ï¿½Îª 2 ï¿½ï¿½ 5ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½Â±ï¿½ 2ï¿½ï¿½
+
+Ê¾ï¿½ï¿½ 2ï¿½ï¿½
+
+ï¿½ï¿½ï¿½ë£ºarray = [0,1,2,4,2,1], target = 3
+ï¿½ï¿½ï¿½ï¿½ï¿½-1
+ï¿½ï¿½ï¿½Í£ï¿½3 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð³ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ -1ï¿½ï¿½
+
+
+
+ï¿½ï¿½Ê¾ï¿½ï¿½
 
 3 <= mountain_arr.length() <= 10000
 0 <= target <= 10^9
@@ -102,7 +102,7 @@ int checktype(int index, MountainArray &mountainArr)
     else
         return 1;
 }
-int findInMountainArray(int target, MountainArray &mountainArr) 
+int findInMountainArray(int target, MountainArray &mountainArr)
 {
     int nLargestIndex = -1;
     int l = 0;

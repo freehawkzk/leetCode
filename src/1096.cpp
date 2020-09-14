@@ -1,5 +1,5 @@
 ﻿/************************************************************************/
-/* 
+/*
 1096. 花括号展开 II
 
 如果你熟悉 Shell 编程，那么一定了解过花括号展开，它可以用来生成任意字符串。
@@ -109,10 +109,10 @@ void matchfirstbrace(std::vector<std::string>& strs)
         }
         index--;
     }
-    
+
 }
 
-std::vector<std::string> braceExpansionII(std::string expression) 
+std::vector<std::string> braceExpansionII(std::string expression)
 {
     std::vector<std::string> res;//
     size_t nSize = 1;
@@ -125,7 +125,7 @@ std::vector<std::string> braceExpansionII(std::string expression)
         }
         else
             break;
-       
+
     }
     res.push_back(expression);
     matchfirstbrace(res);
